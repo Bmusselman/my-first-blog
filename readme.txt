@@ -12,3 +12,7 @@ git stuff
     git add --all . = add updates to git
     git commit -m "comments" = commits the git with a comments
     git push = pushes update to github
+
+
+django shell
+    python manage.py shell
