@@ -1,0 +1,48 @@
+.admin-link {
+    background-color: orange;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.admin-link h1, .admin link h1 a, .admin-link h1 a:visited, .admin-link h1 a:active {
+    color: yellow;
+    font-size: 36pt;
+    text-decoration: none;
+    font-family: 'Bangers';
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: green;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+}

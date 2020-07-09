@@ -16,3 +16,4 @@ git stuff
 
 django shell
     python manage.py shell
+    exit()

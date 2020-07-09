@@ -1,20 +1,13 @@
-<html>
-    <head>
-        <title>Brent's Blog</title>
-    </head>
-    <body>
-        <div>
-            <!-- a href "link destination" --> 
-            <h1><a href="/admin">Link to admin site</a></h1> 
-        </div>
+{% extends 'blog/base.html' %}
 
+{% block content %}
     {% for post in posts %}
-    <div>
-        <h2><a href="">{{ post.title }}</a></h2>
+    <div class="post">
+        <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
         <p>{{ post.text|linebreaksbr }}</p>
-        <p>created: {{ post.created_date }}</p>
+        <div class="date">
+            <p>created: {{ post.created_date }}</p>
+        </div>
     </div>
     {% endfor %}
-
-    </body>
-</html>
+{% endblock %}
