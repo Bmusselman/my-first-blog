@@ -4,12 +4,14 @@
     padding: 20px 20px 20px 40px;
 }
 
-.admin-link h1, .admin link h1 a, .admin-link h1 a:visited, .admin-link h1 a:active {
+
+.admin-link h1, .admin-link h1 a, .admin-link h1 a:visited, .admin-link h1 a:active {
     color: yellow;
     font-size: 36pt;
     text-decoration: none;
     font-family: 'Bangers';
 }
+
 
 .content {
     margin-left: 40px;
@@ -32,11 +34,22 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: red;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
 }
+
+.new-post-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
 .post {
     margin-top: 35px;
